@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600&display=swap');
+
+*{
+  font-family: 'Comfortaa' !important;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} 
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.input{
+  height:52px;
+  border-radius: 10px;
+  border:none;
+  border: 1px solid #5D5D5D;
+  padding: 5px 20px;
+}
