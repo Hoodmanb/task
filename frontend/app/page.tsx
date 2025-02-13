@@ -27,8 +27,7 @@ export default function Home() {
         alignItems={"center"}
         justifyContent={"space-around"}
         sx={{ 
-          padding: "0px 20px",
-          pt:"40px",
+          padding: "40px 20px",
           position:"relative",
           marginBottom: isAbove500px ? "120px" :"",
          }}
