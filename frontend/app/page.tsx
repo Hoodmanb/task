@@ -29,7 +29,7 @@ export default function Home() {
         sx={{ 
           padding: "40px 20px",
           position:"relative",
-          marginBottom: isAbove500px ? "120px" :"",
+          marginBottom: isAbove500px ? "120px" :"100px",
          }}
       >
         {!isAbove500px && <Typography variant="h5" alignSelf={"flex-start"}>Welcome back</Typography>}
