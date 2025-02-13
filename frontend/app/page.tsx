@@ -19,7 +19,7 @@ export default function Home() {
 
   const [manualMode, setManualMode] = useState(false);
   return (
-    <Box>
+    <Box p={0} m={0}>
       <Stack
         direction={"column"}
         gap={4}
@@ -27,9 +27,10 @@ export default function Home() {
         alignItems={"center"}
         justifyContent={"space-around"}
         sx={{ 
-          padding: "40px 20px",
+          padding: "0px 20px",
+          pt:"40px",
           position:"relative",
-          marginBottom: isAbove500px ? "120px" :""
+          marginBottom: isAbove500px ? "120px" :"",
          }}
       >
         {!isAbove500px && <Typography variant="h5" alignSelf={"flex-start"}>Welcome back</Typography>}
