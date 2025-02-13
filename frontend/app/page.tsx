@@ -152,6 +152,11 @@ export default function Home() {
         gap={4}
         bgcolor={"#F5F5F5"}
         display={isAbove500px? "none" : "flex" }
+        position="fixed"     
+        bottom={0}           
+        left={0} 
+        right={0} 
+        zIndex={999} 
       >
         {[
           "About",
